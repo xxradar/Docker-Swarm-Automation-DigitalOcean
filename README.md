@@ -43,14 +43,9 @@ List the docker nodes and swarm status
 docker node ls
 
 ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS
-5kik5m9hdd1tadfklktozs4z6     worker4             Ready               Active              
 6jhi6g2jm1wxr43voophkcfr0     worker1             Ready               Active              
-gmb3hgtjnmfycindfsn3i83s9     manager3            Ready               Active              Reachable
 ikha8tk61t2ojvyfycaxa8jcq *   manager1            Ready               Active              Leader
 madeihv8i14uzjl1jiloq9s6c     worker2             Ready               Active              
-nnnp6joms8usimxjt48xzrkj8     manager2            Ready               Active              Reachable
-sudr22u396wbmj05cw4b7xhi5     worker3             Ready               Active              
-
 ```
 
 
