@@ -1,6 +1,8 @@
 # Auto creating DOCKER SWARM clusters on DigitalOcean and running services
 
-This small project focuses on creating docker nodes, initialize docker swarm, creating a sample web service and traffic generation. The examples adds advanced features like labels, attachable overlays, etc ... to make it a little more advanced. You're required to generate an API token in DigitalOcean control panel.
+This small project focuses on creating docker nodes, initialize docker swarm, creating a sample web service and traffic generation. The examples adds advanced features like labels, attachable overlays, etc ... to make it a little more advanced. 
+
+You're required to generate an API token in DigitalOcean control panel.
 
 
 The script uses the latest version of docker-machine.
@@ -17,7 +19,7 @@ export TOKEN=<insert API token here>
 #create 1st manager nodes
 docker-machine create --driver digitalocean --digitalocean-access-token=$TOKEN manager1
 eval $(docker-machine env manager1)
-docker swarm init --advertise-addr $(docker-machine ip manager1):2377
+docker swarm init --advertise-addr $(docker-machine ip manager1)
 
 export SWARM_MANAGER_JOIN_TOKEN=$(docker swarm join-token -q manager)
 export SWARM_WORKER_JOIN_TOKEN=$(docker swarm join-token -q worker)
