@@ -2,7 +2,7 @@
 
 This small project focuses on creating docker nodes and initialize docker swarm on DigitalOcean. 
 
-You're required to generate an API token in DigitalOcean control panel.
+You're required to generate an API token in DigitalOcean control panel !!!
 
 
 The script uses the latest version of docker-machine.
