@@ -15,7 +15,7 @@ Obtain the latest version at https://github.com/docker/machine/releases/.
 docker-machine ls
 
 #obtain an API token https://cloud.digitalocean.com/settings/api/tokens
-export TOKEN=<insert API token here>
+export TOKEN=<insert API token here !!!>
 
 #create 1st manager nodes
 docker-machine create --driver digitalocean --digitalocean-access-token=$TOKEN manager1
