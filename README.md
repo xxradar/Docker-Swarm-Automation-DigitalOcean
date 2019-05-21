@@ -7,7 +7,7 @@ You're required to generate an API token in DigitalOcean control panel !!!
 
 The script uses the latest version of docker-machine.
 See https://docs.docker.com/machine/install-machine/ for installation guidelines. 
-Obtain the latest version at https://github.com/docker/machine/releases/
+Obtain the latest version at https://github.com/docker/machine/releases/.
 
 
 ```
